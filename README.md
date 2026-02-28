@@ -149,7 +149,7 @@ Este projeto contém bugs intencionais para ajudar desenvolvedores juniores a pr
 - ✅ Performance não é degradada
 - ✅ UX é melhorada
 
-## �👤 Desenvolvedor
+## 👤 Desenvolvedor
 
 | Nome | E-mail | Telefone |
 |------|--------|----------|

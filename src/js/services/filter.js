@@ -12,7 +12,7 @@ let filterObj = {
 
 async function loadAllProducts() {
     allProducts = []
-    allProducts = await productServices
+    allProducts = await productServices()
     productsRender(allProducts)
     return allProducts
 }
@@ -102,7 +102,7 @@ function filter(value) {
     }
 
     products = new Set([...filterObj.colors, ...filterObj.sizes, ...filterObj.prices])
-    !products.length ? productsRender(products) : loadAllProducts()
+    products.length ? productsRender([...products]) : loadAllProducts()
 }
 
 export { filter, loadAllProducts, products }

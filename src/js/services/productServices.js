@@ -7,4 +7,4 @@ async function productServices() {
     return products
 }
 
-export default productServices()
+export default productServices

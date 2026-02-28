@@ -2,7 +2,7 @@ import path from "path";
 
 import gulp from "gulp";
 import webpack from "webpack";
-import del from "del";
+import { deleteAsync as del } from "del";
 import autoprefixer from "gulp-autoprefixer";
 import dartSass from 'sass';
 import gulpSass from 'gulp-sass';
